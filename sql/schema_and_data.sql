@@ -8,6 +8,9 @@ CREATE TABLE public.hero (
     last_name VARCHAR NOT NULL
 );
 
+-- Delete operation can be useful if we want to update record again
+DELETE FROM hero WHERE TRUE;
+
 INSERT INTO public.hero (first_name, last_name) VALUES
 ('Jim', 'Hawkins'),
 ('Captain', 'Nemo'),
