@@ -14,5 +14,10 @@
             <artifactId>postgresql</artifactId>
             <version>42.7.7</version>
         </dependency>
+        <dependency>
+            <groupId>com.impossibl.pgjdbc-ng</groupId>
+            <artifactId>pgjdbc-ng</artifactId>
+            <version>0.8.9</version>
+        </dependency>
     </dependencies>
 </project>
